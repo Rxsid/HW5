@@ -13,7 +13,7 @@ int [] FillArrayWithRandomNumber(int size)
     return arr;
 }
 
-System.Console.WriteLine("Vvedite razmer massiva: ");
+System.Console.WriteLine("ВВедите размер массива: ");
 int length = Convert.ToInt32(Console.ReadLine());
 int[] array = FillArrayWithRandomNumber(length);
 
@@ -32,4 +32,4 @@ int KolvoChet (int[] array)
 
 int Kolvo = KolvoChet (array);
 System.Console.WriteLine(string.Join(", ", array));
-System.Console.WriteLine($"Kolichestvo chetnyh = {Kolvo}");
+System.Console.WriteLine($"Количество чётных = {Kolvo}");

@@ -13,7 +13,7 @@ double[] FillArrayWithRandomNumber(int size)
     return arr;
 }
 
-System.Console.WriteLine("Vvedite razmer massiva: ");
+System.Console.WriteLine("Введите размер массива: ");
 int length = Convert.ToInt32(Console.ReadLine());
 double[] array = FillArrayWithRandomNumber(length);
 
@@ -32,4 +32,4 @@ double Selection (double[] array)
 }
 double Razn = Selection(array);
 System.Console.WriteLine(string.Join(", ", array));
-System.Console.WriteLine($"Raznica mejdu maximal`nym i minimal`nym elementom massiva = {Razn}");
+System.Console.WriteLine($"Разность между максимальным и минимальным элементами массива = {Razn}");

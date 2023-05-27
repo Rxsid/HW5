@@ -15,7 +15,7 @@ int [] FillArrayWithRandomNumber(int size)
     return arr;
 }
 
-System.Console.WriteLine("Vvedite razmer massiva: ");
+System.Console.WriteLine("Введите размер массива: ");
 int length = Convert.ToInt32(Console.ReadLine());
 int[] array = FillArrayWithRandomNumber(length);
 
@@ -30,4 +30,4 @@ int SumChetPos (int[] array)
 }
 int Sum = SumChetPos (array);
 System.Console.WriteLine(string.Join(", ", array));
-System.Console.WriteLine($"Summa elementov s chetnym indexom = {Sum}");
+System.Console.WriteLine($"Сумма элементов, стоящих на чётных позициях = {Sum}");
